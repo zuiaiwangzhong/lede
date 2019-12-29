@@ -10,6 +10,9 @@
 name: OpenWrt-D525-X86
 
 on:
+push:
+  branches: 
+    - master
   schedule:
     - cron: 0 20 * * *
 
